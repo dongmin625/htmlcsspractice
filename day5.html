@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input 에서 타입을 지정하지 않으면 default로 text라고 인식 -->
+    <h1>텍스트 관련 인풋 타입</h1>
+
+    <form action="#">
+      <label for="txtIp">text</label> <br>
+      <input 
+        id="txtIp"
+        type="text"
+        placeholder="5자 이하"
+        maxlength="5"
+      >
+    <!-- placeholder는 입력칸에 미리보여줌 -->
+    <!-- maxlength : 최대길이 -->
+      <br><br>
+  
+      <label for="pwdIp">password</label> <br>
+      <input
+        id="pwdIp"
+        type="password"
+        placeholder="4자 이상"
+        minlength="4"
+      >
+    <!-- minlength : 최소길이 -->
+      <br><br>
+  
+      <label for="srchIp">search</label> <br>
+      <input id="srchIp" type="search">
+      <br><br>
+  
+      <label for="tlIp">tel</label> <br>
+      <input id="tlIp" type="tel">
+      <br><br>
+      <button type="submit">제출</button>
+    </form>
+</body>
+</html>
