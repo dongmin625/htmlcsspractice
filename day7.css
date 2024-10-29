@@ -1,0 +1,5 @@
+.style-2 {
+    color: slateblue;
+  }
+/* style-2 요소는 연결되었지만 파일은 연결이 안된 상태 */
+/* 연결 : html의 link 태그 부분에서 연결시킴 */
