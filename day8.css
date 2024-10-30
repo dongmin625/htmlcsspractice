@@ -1,0 +1,33 @@
+p {
+  /* normal, italic, oblique */
+  font-style: italic;
+
+  /* normal, bold, 100~900 */
+  font-weight: 300;
+}
+
+html {
+  font-size: 14px;
+}
+div {
+  font-size: 2em;
+}
+
+p {
+  text-decoration: overline;
+
+  text-transform: capitalize;
+}
+
+p {
+  text-shadow:
+    /* 안쪽 흰색 그림자 */
+    1px 0 white, -1px 0 white, 0 1px white, 0 -1px white, 
+    1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white,
+
+    /* 바깥쪽 미국자두색 그림자 */
+    2px 0 plum, -2px 0 plum, 0 2px plum, 0 -2px plum,
+    2px 1px plum, -2px 1px plum, 1px 2px plum, 1px -2px plum,
+    2px -1px plum, -2px -1px plum, -1px 2px plum, -1px -2px plum,
+    2px 2px plum, 2px -2px plum, -2px 2px plum, -2px -2px plum;
+}
