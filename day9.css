@@ -1,0 +1,30 @@
+p {
+  /* left, center, right, justify */
+  text-align: justify;
+  /* 텍스트 정렬 방식 */
+
+  letter-spacing: 0;
+  /* 문자간 간격 */
+  word-spacing: 0;
+  /* 단어간 간격 */
+  line-height: 1.5em;
+  /* 줄 높이 em:상대적인 단위*/
+
+  text-indent:0.5em;
+  /* 들여쓰기 조절 */
+}
+
+ul {
+    list-style: circle;
+  }
+  
+  /* li별로 지정하는 것도 가능 */
+  
+  ul > li:first-child {
+    /* ul안에 들어있는 li중 첫번째 자식 */
+    list-style: "🚩 "
+  }
+  
+  ol {
+    list-style: lower-alpha;
+  }
