@@ -1,0 +1,31 @@
+p {
+    background-color: lightblue;
+    margin: 0 0 24px 0;
+    padding: 24px;
+  }
+  /* 내가 준 속성이 아닌데 적용되어있다면 브라우저가 기본적으로 준것 */
+  
+  p.special {
+    margin-top: 48px;
+    /* margin-bottom: */
+    /* margin-left: */
+    /* margin-right: */
+  
+    /* padding-top */
+    /* padding-bottom */
+    /* padding-left */
+    /* padding-right */
+  }
+
+body {
+    text-align: right;
+}
+
+  div {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    /* margin-top: 0 auto; */
+    /* 위 아래 0 좌우 자동 */
+  }
