@@ -1,0 +1,11 @@
+div {
+  padding: 24px;
+  background-color: skyblue;
+
+  cursor: auto;
+  opacity: 0.3;
+  visibility: hidden;
+  display: none;
+  /* visibility : hidden은 영역으로 이동해도 커서가 바뀌지 않음 */
+  /* display : none은 자리조차 차지하지 않음 */
+}
